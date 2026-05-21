@@ -1,0 +1,2 @@
+# Reina-s-Black-Box
+My name is Reina. Im 14 years old, Lebanese growing up in Abu Dhabi, and i am obsessed with understanding why planes crashed. It started with a episode from a youtube channel called Mayday. I watched one episode and couldn't stop not because crashes are frightening but because every single crash has a reason, a preventable one. a engineering reason
