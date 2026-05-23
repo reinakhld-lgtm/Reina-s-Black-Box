@@ -57,33 +57,35 @@
             margin: 50px auto;
             padding: 0 20px;
         }
-        .content h2 {
+        .page-title {
             color: #2471a3;
-            font-size: 1.8em;
+            font-size: 2em;
+            margin-bottom: 40px;
             border-bottom: 2px solid #a8d4f0;
-            padding-bottom: 8px;
-            margin-bottom: 30px;
+            padding-bottom: 10px;
         }
-        .analysis-card {
-            background-color: #fef9e7;
-            border-left: 5px solid #f7dc6f;
-            padding: 25px 30px;
-            margin-bottom: 30px;
-            border-radius: 4px;
+        .entry {
+            margin-bottom: 50px;
         }
-        .analysis-card h3 {
+        .entry h2 {
             color: #2471a3;
-            font-size: 1.3em;
-            margin-bottom: 10px;
+            font-size: 1.5em;
+            margin-bottom: 8px;
         }
-        .analysis-card .date {
+        .entry .date {
             font-size: 0.85em;
             color: #999;
             margin-bottom: 15px;
         }
-        .analysis-card p {
+        .entry p {
+            font-size: 1.05em;
             color: #2c2c2c;
-            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .divider {
+            border: none;
+            border-top: 1px solid #a8d4f0;
+            margin: 40px 0;
         }
         footer {
             background-color: #d6eaf8;
@@ -100,7 +102,7 @@
 
     <header>
         <h1>✈️ Reina's Black Box</h1>
-        <p>Accidents don't just happen. I find the cause.</p>
+        <p> Every crash has a reason, i’m here to find it and stop it.</p>
     </header>
 
     <nav>
@@ -110,13 +112,30 @@
     </nav>
 
     <div class="content">
-        <h2>Accident Analyses</h2>
+        <h1 class="page-title">Analyses</h1>
 
-        <div class="analysis-card">
-            <h3>Air France Flight 447</h3>
-            <p class="date">May 23 2026</p>
-            <p>I'm currently working on my first published analysis. Each entry will cover what went wrong, how it could have been avoided, and what I would design differently. Check back soon. ✈️</p>
+        <div class="entry">
+            <h2>Air France Flight 447</h2>
+            <p class="date">June 1, 2009 — Atlantic Ocean</p>
+            <p>Write your analysis here about AF447. What happened, what went wrong, what you think about it.</p>
         </div>
+
+        <hr class="divider">
+
+        <div class="entry">
+            <h2>Second Entry Title Here</h2>
+            <p class="date">Date here</p>
+            <p>Write your second analysis here.</p>
+        </div>
+
+        <hr class="divider">
+
+        <div class="entry">
+            <h2>Third Entry Title Here</h2>
+            <p class="date">Date here</p>
+            <p>Write your third analysis here.</p>
+        </div>
+
     </div>
 
     <footer>
